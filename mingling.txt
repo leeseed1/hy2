@@ -1,0 +1,2 @@
+$env:CGO_ENABLED=0
+go build -o hysteria.exe -trimpath -ldflags "-s -w -buildid=" ./app
